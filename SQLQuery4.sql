@@ -1,0 +1,13 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [FacturaID]
+      ,[NCF]
+      ,[Fecha]
+      ,[ClienteID]
+      ,[PersonalID]
+      ,[Total]
+      ,[Termino_pago]
+      ,[Fecha_creacion]
+      ,[Usuario_creacion]
+      ,[Estado_factura]
+      ,[Estado_registro]
+  FROM [WorldFitness].[dbo].[Factura]
